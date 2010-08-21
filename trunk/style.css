@@ -1109,3 +1109,11 @@ code {
 		border: none;
 	}
 }
+
+#searchsubmit {
+	background-image:url(images/scrap/go.png) no-repeat;
+	width:34px;
+	height:15px;
+	border:none;
+	cursor:pointer;
+	}
