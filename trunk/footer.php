@@ -13,7 +13,7 @@
 	</div><!-- #main -->
 	<img src="<?php bloginfo('template_directory'); ?>/images/scrap/maindecal.png" />
 	<div id="footer" role="contentinfo">
-		<div id="colophon">
+
 
 <?php
 	/* A sidebar in the footer? Yep. You can can customize
@@ -28,7 +28,6 @@
 
 			<!-- #site-generator -->
 
-		</div><!-- #colophon -->
 	</div><!-- #footer -->
 
 </div><!-- #wrapper -->
