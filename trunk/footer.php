@@ -23,7 +23,7 @@
 ?>
 
 			<div id="site-info">
-				Copyright © Myrtle Alley Press 2010 | Site by <a href="http://www.constellationco.com">Constellation & Co.</a>
+				Copyright &copy; Myrtle Alley Press 2010 | Site by <a href="http://www.constellationco.com">Constellation & Co.</a>
 			</div><!-- #site-info -->
 
 			<!-- #site-generator -->
