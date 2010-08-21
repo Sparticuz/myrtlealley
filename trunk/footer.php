@@ -23,12 +23,10 @@
 ?>
 
 			<div id="site-info">
-				<a href="<?php echo home_url( '/' ) ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-					<?php bloginfo( 'name' ); ?>
-				</a>
+				Copyright © Myrtle Alley Press 2010 | Site by <a href="http://www.constellationco.com">Constellation & Co.</a>
 			</div><!-- #site-info -->
 
-			Copyright © Myrtle Alley Press 2010 | Site by <a href="http://www.constellationco.com">Constellation & Co.</a><!-- #site-generator -->
+			<!-- #site-generator -->
 
 		</div><!-- #colophon -->
 	</div><!-- #footer -->
