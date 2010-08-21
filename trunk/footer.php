@@ -11,7 +11,7 @@
  */
 ?>
 	</div><!-- #main -->
-	<?php bloginfo('template_directory'); ?>images/scrap/maindecal.png
+	<img src="<?php bloginfo('template_directory'); ?>images/scrap/maindecal.png" />
 	<div id="footer" role="contentinfo">
 		<div id="colophon">
 
