@@ -238,14 +238,16 @@ textarea {
 	padding: 2px;
 }
 a:link {
-	color: #0066cc;
+	color: #d9d9d9;
 }
 a:visited {
-	color: #743399;
+	color: #6e6e6e;
 }
-a:active,
+a:active {
+	color:#6e6e6e;
+}
 a:hover {
-	color: #ff4b33;
+	color: #7dbf9d;
 }
 
 /* =Header
