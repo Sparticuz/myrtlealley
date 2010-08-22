@@ -1084,8 +1084,7 @@ code {
 	}
 	
 p.dropcap {
- font-size : 300%;
- font-weight : bold;
+ font-size : 90px;
  float : left;
  width : 1em;
  color : #7dbf9d;
