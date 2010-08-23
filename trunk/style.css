@@ -89,7 +89,6 @@ body{
 #header .logo{
 	float:left;
 	margin-top: 24px;
-	border: 1px solid red;
 }
 
 #search{
@@ -103,16 +102,39 @@ body{
 
 #menu {
 	float: left;
-	margin: 116px auto 0 auto;
-	border: 1px solid blue;
-	width:853px;
+	margin: 135px auto 0 auto;
 }
 
+#menu ul{margin: 0;}
 #menu ul, #menu li{
 	list-style: none;
 	display: inline;
+	float: left;
+}
+#menu li{padding-left:37px;}
+#menu li a{
+	display: block;
+	background: url('images/menu.png');
+	height: 18px;
+	font-size: 0px;
 }
 
+/* link backgrounds */
+/* about */
+#menu li.menu-item-57 a{width: 77px;}
+#menu li.menu-item-57 a:hover {background-position: 0 18px;}
+/* fine letterpress */
+#menu li.menu-item-56 a{width: 202px;background-position: -85px 0;}
+#menu li.menu-item-56 a:hover {background-position: -85px 18px;}
+/* branding */
+#menu li.menu-item-47 a{width: 225px;background-position: -295px 0;}
+#menu li.menu-item-47 a:hover {background-position: -295px 18px;}
+/* shop */
+#menu li.menu-item-51 a{width: 61px;background-position: -532px 0;}
+#menu li.menu-item-51 a:hover {background-position: -532px 18px;}
+/* contact */
+#menu li.menu-item-48 a{width: 108px;background-position: -605px 0;}
+#menu li.menu-item-48 a:hover {background-position: -605px 18px;}
 
 /* FONTS */
 

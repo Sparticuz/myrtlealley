@@ -35,7 +35,7 @@
 <body <?php body_class(); ?>>
 <div id="wrapper" class="hfeed">
 	<div id="header">
-		<div class="logo"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="Myrtle Alley Press" /></div>
+		<div class="logo"><a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="Myrtle Alley Press" /></a></div>
 		<div id="search"><?php get_search_form(); ?></div>
 		<div id="menu">
 			<?php 
