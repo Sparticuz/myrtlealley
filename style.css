@@ -1090,18 +1090,15 @@ code {
 	height:15px;
 	border:none;
 	cursor:pointer;
-	float:right;
-	position:absolute;
-	top:10px;
-	right:5px;
+	margin-left:-45px;
 	}
 	
 #input {
-	width: 135px;
+	width: 169px;
 	height:29px;
 	padding-left: 15px;
 	border-bottom: 0px;
-	border:0;
+	border:none;
 }
 
 #input:focus {
@@ -1114,9 +1111,3 @@ code {
 	height:42px;
 	}
 	
-p.dropcap {
- font-size : 90px;
- float : left;
- width : 1em;
- color : #7dbf9d;
- }
