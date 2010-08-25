@@ -30,6 +30,8 @@
 	 */
 	wp_head();
 ?>
+<script type="text/javascript" src="<?php echo bloginfo('template_directory'); ?>/js/jquery.slideviewer.1.2.js"></script>
+<script type="text/javascript" src="<?php echo bloginfo('template_directory'); ?>/js/jquery.easing.1.3.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
