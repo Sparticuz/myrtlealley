@@ -9,6 +9,17 @@
 ?>
 
 <?php get_header(); ?>
+<div id="aside">
+	<?php 
+	$menu_args = array(
+		'walker'          => new Custom_Walker_Nav_Sub_Menu(),
+		'container'       => ''
+	);
+
+	wp_nav_menu($menu_args);
+
+	?>
+</div>
 <div class="grid_16">
 	<h5><?php $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) ); echo $term->name; ?></h5>
 	<div class="grid_12" style="margin-left:-1px;"><h4><?php echo term_description( '', get_query_var( 'taxonomy' ) ); ?></h4></div>
