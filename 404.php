@@ -10,14 +10,10 @@
 get_header(); ?>
 
 	<div id="container">
-		<div id="content" role="main">
-
+		<div id="content" style="width:920px;text-align:center;" role="main">
+<img src="<?php bloginfo('template_directory'); ?>/images/error.png" alt="404" />
 			<div id="post-0" class="post error404 not-found">
-				<h1 class="entry-title">Not Found</h1>
-				<div class="entry-content">
-					<p>Apologies, but the page you requested could not be found. Perhaps searching will help.</p>
-					<?php get_search_form(); ?>
-				</div><!-- .entry-content -->
+				<h1 class="entry-title">Apologies, but the page you requested could not be found. Perhaps searching will help.</h1>
 			</div><!-- #post-0 -->
 
 		</div><!-- #content -->
