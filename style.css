@@ -127,6 +127,7 @@ body{
 /* Aside */
 #aside a{ font-size: 16px; color: #7dbf9d;}
 #aside .sub-menu a{ color: #6e6e6e;}
+#aside .sub-menu a:hover{ color: #7dbf9d;}
 #aside ul, #aside li{
 	list-style: none;
 	padding: 0;
