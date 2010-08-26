@@ -16,7 +16,7 @@ function register_project(){
 		'hierarchical' => false,
 		'rewrite' => array('slug'=>'project'),
 		'query_var' => true,
-		'supports' => array('title', 'editor', 'author', 'trackbacks', 'custom-fields')
+		'supports' => array('title', 'editor', 'author', 'trackbacks', 'custom-fields', 'thumbnail')
 	));
 }
 
@@ -150,8 +150,10 @@ class Custom_Walker_Nav_Sub_Menu extends Walker_Nav_Menu {
 
 
 /*Add Menu Management & Sidebar support */
-if (function_exists('add_theme_support'))
+if (function_exists('add_theme_support')){
 	add_theme_support('menus');
+	add_theme_support('post-thumbnails');
+}
 
 /*change to google hosted jquery*/
 if( !is_admin()){

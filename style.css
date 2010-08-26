@@ -94,8 +94,8 @@ body{
 #menu li.menu-item-56 a{width: 202px;background-position: -85px 0;}
 #menu li.menu-item-56 a:hover {background-position: -85px 18px;}
 /* branding */
-#menu li.menu-item-107 a{width: 225px;background-position: -295px 0;}
-#menu li.menu-item-107 a:hover {background-position: -295px 18px;}
+#menu li.menu-item-114 a{width: 225px;background-position: -295px 0;}
+#menu li.menu-item-114 a:hover {background-position: -295px 18px;}
 /* shop */
 #menu li.menu-item-108 a{width: 61px;background-position: -532px 0;}
 #menu li.menu-item-108 a:hover {background-position: -532px 18px;}
@@ -288,6 +288,7 @@ a:hover {
 	overflow: hidden;
 	padding: 30px 25px 0 25px;
 	background-color: white;
+	min-height: 495px;
 }
 #aside{
 	width: 141px;
@@ -1168,4 +1169,9 @@ code {
 	float: left;
 	margin-left: 25px;
 	width: 239px;
+}
+
+.project-thumb{
+	float:left;
+	margin-bottom: 30px;
 }
