@@ -25,7 +25,6 @@
 		<h1 class="entry-title">Not Found</h1>
 		<div class="entry-content">
 			<p>Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post.</p>
-			<?php get_search_form(); ?>
 		</div><!-- .entry-content -->
 	</div><!-- #post-0 -->
 <?php endif; ?>
@@ -55,12 +54,11 @@
 			<div class="box">
 			<header>
 				<h1 class="entry-title" style="margin-top:2px;"><a href="<?php the_permalink(); ?>" title="Permalink to <?php the_title_attribute(); ?>" rel="bookmark"><?php the_title(); ?></a></h1><hr />
-				<em><small>by <?php	the_author_posts_link(); ?> on <?php the_time('F jS, Y'); ?></small></em>
 			</header>
 			<br />
-
+			
 			<article class="entry-content">
-				<?php the_content('Continue reading &nbsp;<span class="meta-nav" style="font-size:1.75em;vertical-align:middle;">☞</span>'); ?>
+				<?php the_content('Continue reading &nbsp; ☞'); ?>				
 			</article><!-- .entry-content -->
 
 			<footer>
