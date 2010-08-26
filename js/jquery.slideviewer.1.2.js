@@ -14,7 +14,7 @@
  */
 
 jQuery(function(){
-   jQuery("div.svw").prepend("<img src='spinner.gif' class='ldrgif' alt='loading...'/ >"); 
+   jQuery("div.svw").prepend("<span class='ldrgif'>loading...</span>");
 });
 var j = 0;
 var quantofamo = 0;
@@ -28,10 +28,12 @@ jQuery.fn.slideView = function(settings) {
 	}, settings);
 	return this.each(function(){
 		var container = jQuery(this);
-		container.find("img.ldrgif").remove();
+		container.find("span.ldrgif").remove();
 		container.removeClass("svw").addClass("stripViewer");		
 		var pictWidth = container.find("img").width();
+			if(pictWidth == 0) pictWidth = '480';
 		var pictHeight = container.find("img").height();
+			if(pictHeight == 0) pictHeight = '360';
 		var pictEls = container.find("li").size();
 		var stripViewerWidth = pictWidth*pictEls;
 		container.find("ul").css("width" , stripViewerWidth);

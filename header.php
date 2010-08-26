@@ -48,7 +48,9 @@
 			 */ 
 			
 			$args = array(
-				'depth' => 1
+				'depth' => 1,
+				'link_before' => '<span>',
+				'link_after' => '</span>'
 			);
 			
 			wp_nav_menu( $args ); ?>
