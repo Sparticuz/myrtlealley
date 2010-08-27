@@ -76,7 +76,7 @@ body{
 	display: inline;
 	float: left;
 }
-#menu li{padding-left:37px;}
+#menu li{padding-left:40px;}
 #menu li a{
 	display: block;
 	background: url('images/menu.png');
@@ -88,7 +88,7 @@ body{
 
 /* link backgrounds */
 /* about */
-#menu li.menu-item-57 a{width: 77px;}
+#menu li.menu-item-57 a{width: 61px;}
 #menu li.menu-item-57 a:hover {background-position: 0 18px;}
 /* fine letterpress */
 #menu li.menu-item-56 a{width: 202px;background-position: -85px 0;}
