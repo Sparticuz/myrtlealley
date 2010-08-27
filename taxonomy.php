@@ -20,7 +20,7 @@
 
 	?>
 </div>
-
+<div id="content">
 <?php while( have_posts() ) : the_post() ?>
 
 <div id="post-<?php the_ID(); ?>" class="project-thumb">
@@ -30,4 +30,5 @@
 	</a>
 </div><!-- .post -->
 <?php endwhile; ?>
+</div>
 <?php get_footer(); ?>

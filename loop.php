@@ -50,7 +50,7 @@
 
 <?php /* How to display all other posts. */ ?>
 
-		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+		<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<div class="box">
 			<header>
 				<h1 class="entry-title" style="margin-top:2px;"><a href="<?php the_permalink(); ?>" title="Permalink to <?php the_title_attribute(); ?>" rel="bookmark"><?php the_title(); ?></a></h1><hr />
@@ -68,7 +68,7 @@
 					comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></p>
 			</footer><!-- .entry-utility -->
 			</div>
-		</article><!-- #post-## -->
+		</div><!-- #post-## -->
 
 		<?php comments_template( '', true ); ?>
 

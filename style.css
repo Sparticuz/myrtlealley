@@ -62,6 +62,9 @@ body{
 	position: absolute;
 	top: 53px;
 	right: 0px;
+	background: url('images/scrap/search.png') no-repeat;
+	width: 188px;
+	height:42px;
 }
 
 /* =Menu
@@ -1093,11 +1096,7 @@ code {
 	outline:none;
 }
 
-.search {
-	background: url('images/scrap/search.png') no-repeat;
-	width: 188px;
-	height:42px;
-	}
+
 
 
 	/*slideview css*/
@@ -1169,5 +1168,5 @@ code {
 
 .project-thumb{
 	float:left;
-	margin-bottom: 30px;
+	margin-right: 16px;
 }

@@ -9,9 +9,6 @@
 
 get_header(); ?>
 
-		<div id="container">
-			<div id="content" role="main">
-
 <?php if ( have_posts() ) : ?>
 				<h1 class="page-title"><?php printf( 'Search Results for: %s', '<span>' . get_search_query() . '</span>' ); ?></h1>
 				<?php
@@ -30,7 +27,5 @@ get_header(); ?>
 					</div><!-- .entry-content -->
 				</div><!-- #post-0 -->
 <?php endif; ?>
-			</div><!-- #content -->
-		</div><!-- #container -->
 
 <?php get_footer(); ?>
