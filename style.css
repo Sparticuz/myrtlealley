@@ -115,12 +115,8 @@ body{
 	font-family: Georgia;
 }
 
-#content p:first-child:first-letter {
-	font-size: 60px;
-	color: #7dbf9d;
-	float: left;
-	padding-right: 3px;
-}
+
+
 #content p:first-child:first-line{
 	
 }
