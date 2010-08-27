@@ -35,6 +35,7 @@ table {border-collapse: collapse;border-spacing: 0;}
 a img {border: none;}
 /*end*/
 
+
 body{
 	background-image: url('images/bg.jpg');
 	background-position: center;
@@ -119,11 +120,6 @@ body{
 }
 
 
-
-#content p:first-child:first-line{
-	
-}
-
 /* Aside */
 #aside a{ font-size: 16px; color: #7dbf9d;}
 #aside .sub-menu a{ color: #6e6e6e;}
@@ -154,7 +150,7 @@ hr {
 
 /* Text elements */
 p {
-	font-size:12px;
+	font-size:13px;
 	color:#818181;
 	margin-bottom: 18px;
 }
@@ -287,7 +283,7 @@ a:hover {
 	overflow: hidden;
 	padding: 30px 25px 0 25px;
 	background-color: white;
-	min-height: 495px;
+	min-height: 440px;
 }
 #aside{
 	width: 141px;
@@ -296,9 +292,11 @@ a:hover {
 }
 #content {
 	margin-bottom: 36px;
-	min-height:495px;
 	float:left;
 	width: 744px;
+	height: 440px;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 #content,
 #content input,
@@ -357,7 +355,7 @@ a:hover {
 #content tr th,
 #content thead th {
 	color: #888;
-	font-size: 12px;
+	font-size: 13px;
 	font-weight: bold;
 	line-height: 18px;
 	padding: 9px 24px;
@@ -420,7 +418,7 @@ a:hover {
 }
 .entry-meta {
 	color: #888;
-	font-size: 12px;
+	font-size: 13px;
 }
 .entry-meta abbr,
 .entry-utility abbr {
@@ -457,7 +455,7 @@ a:hover {
 }
 .entry-content label {
 	color: #888;
-	font-size: 12px;
+	font-size: 13px;
 }
 .entry-content select {
 	margin: 0 0 24px 0;
@@ -536,7 +534,7 @@ body.page .edit-link {
 .entry-utility {
 	clear: both;
 	color: #888;
-	font-size: 12px;
+	font-size: 13px;
 	line-height: 18px;
 }
 .entry-meta a,
@@ -556,7 +554,7 @@ body.page .edit-link {
 -------------------------------------------------------------- */
 
 .home #content .category-asides p {
-	font-size: 12px;
+	font-size: 13px;
 	line-height: 20px;
 	margin-bottom: 10px;
 	margin-top: 0;
@@ -651,7 +649,7 @@ body.page .edit-link {
 }
 #content .wp-caption p.wp-caption-text {
 	color: #888;
-	font-size: 12px;
+	font-size: 13px;
 	margin: 5px;
 }
 #content .wp-smiley {
@@ -671,7 +669,7 @@ body.page .edit-link {
 }
 #content .gallery .gallery-caption {
 	color: #888;
-	font-size: 12px;
+	font-size: 13px;
 	margin: 0 0 12px;
 }
 #content .gallery dl {
@@ -687,49 +685,6 @@ body.page .edit-link {
 	display: block;
 	margin: 0 auto;
 }
-
-
-/* =Navigation
--------------------------------------------------------------- */
-
-.navigation {
-	color: #888;
-	font-size: 12px;
-	line-height: 18px;
-	overflow: hidden;
-}
-.navigation a:link,
-.navigation a:visited {
-	color: #888;
-	text-decoration: none;
-}
-.navigation a:active,
-.navigation a:hover {
-	color: #ff4b33;
-}
-.nav-previous {
-	float: left;
-	width: 50%;
-}
-.nav-next {
-	float: right;
-	text-align: right;
-	width: 50%;
-}
-#nav-above {
-	margin: 0 0 18px 0;
-}
-#nav-above {
-	display: none;
-}
-.paged #nav-above,
-.single #nav-above {
-	display: block;
-}
-#nav-below {
-	margin: -18px 0 0 0;
-}
-
 
 /* =Comments
 -------------------------------------------------------------- */
@@ -793,7 +748,7 @@ h3#comments-title {
 	font-style: italic;
 }
 .comment-meta {
-	font-size: 12px;
+	font-size: 13px;
 	margin: 0 0 18px 0;
 }
 .comment-meta a:link,
@@ -810,7 +765,7 @@ h3#comments-title {
 .commentlist .bypostauthor {
 }
 .reply {
-	font-size: 12px;
+	font-size: 13px;
 	padding: 0 0 24px 0;
 }
 .reply a,
@@ -844,7 +799,7 @@ a.comment-edit-link:hover {
 #comments .pingback p {
 	color: #888;
 	display: block;
-	font-size: 12px;
+	font-size: 13px;
 	line-height: 18px;
 	margin: 0;
 }
@@ -885,7 +840,7 @@ h3#reply-title {
 	margin: 0;
 }
 #cancel-comment-reply-link {
-	font-size: 12px;
+	font-size: 13px;
 	font-weight: normal;
 	line-height: 18px;
 }
@@ -895,7 +850,7 @@ h3#reply-title {
 }
 #respond label {
 	color: #888;
-	font-size: 12px;
+	font-size: 13px;
 }
 #respond input {
 	margin: 0 0 9px;
@@ -906,7 +861,7 @@ h3#reply-title {
 }
 #respond .form-allowed-tags {
 	color: #888;
-	font-size: 12px;
+	font-size: 13px;
 	line-height: 18px;
 }
 #respond .form-allowed-tags code {

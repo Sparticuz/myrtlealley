@@ -53,7 +53,7 @@
 		<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<div class="box">
 			<header>
-				<h1 class="entry-title" style="margin-top:2px;"><a href="<?php the_permalink(); ?>" title="Permalink to <?php the_title_attribute(); ?>" rel="bookmark"><?php the_title(); ?></a></h1><hr />
+				<h3 class="entry-title" style="margin-top:2px;"><a href="<?php the_permalink(); ?>" title="Permalink to <?php the_title_attribute(); ?>" rel="bookmark"><?php the_title(); ?></a></h3><hr />
 			</header>
 			<br />
 			
@@ -62,10 +62,7 @@
 			</article><!-- .entry-content -->
 
 			<footer>
-				<p class="postmetadata"><?php
-					the_tags('Tags: ', ', ', '<br />'); ?> <?php
-					edit_post_link('Edit', '', ' | '); ?>  <?php
-					comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></p>
+				
 			</footer><!-- .entry-utility -->
 			</div>
 		</div><!-- #post-## -->

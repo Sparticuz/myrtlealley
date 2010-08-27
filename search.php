@@ -20,10 +20,10 @@ get_header(); ?>
 				?>
 <?php else : ?>
 				<div id="post-0" class="post no-results not-found">
-					<h2 class="entry-title">Nothing Found</h2>
+					<h3 class="entry-title">Nothing Found</h3><br />
 					<div class="entry-content">
 						<p>Sorry, but nothing matched your search criteria. Please try again with some different keywords.</p>
-						<?php get_search_form(); ?>
+				
 					</div><!-- .entry-content -->
 				</div><!-- #post-0 -->
 <?php endif; ?>

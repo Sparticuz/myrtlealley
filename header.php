@@ -14,6 +14,7 @@
 <title><?php bloginfo( 'name' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo bloginfo('template_directory');?>/js/jscrollpane.css" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="alternate" type="application/rss+xml" title="Constellation &amp; Co. News Feed" href="<?php bloginfo('rss2_url'); ?>" />
 <?php
@@ -32,6 +33,7 @@
 ?>
 <script type="text/javascript" src="<?php echo bloginfo('template_directory'); ?>/js/jquery.slideviewer.1.2.js"></script>
 <script type="text/javascript" src="<?php echo bloginfo('template_directory'); ?>/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="<?php echo bloginfo('template_directory'); ?>/js/jquery.jscrollpane.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
