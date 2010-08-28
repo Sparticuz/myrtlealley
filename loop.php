@@ -53,9 +53,8 @@
 		<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<div class="box">
 			<header>
-				<h3 class="entry-title" style="margin-top:2px;"><a href="<?php the_permalink(); ?>" title="Permalink to <?php the_title_attribute(); ?>" rel="bookmark"><?php the_title(); ?></a></h3><hr />
+				<h3 class="entry-title" style="margin-top:20px;"><a href="<?php the_permalink(); ?>" title="Permalink to <?php the_title_attribute(); ?>" rel="bookmark"><?php the_title(); ?></a></h3><hr />
 			</header>
-			<br />
 			
 			<article class="entry-content">
 				<?php the_content('Continue reading &nbsp; ☞'); ?>				
