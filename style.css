@@ -337,7 +337,8 @@ a:hover {
 
 ::-webkit-scrollbar-thumb:vertical {
     height: 50px;
-    background-color: #ccc;
+    background-color: #7dbf9d;
+    opacity: .7; 
     -webkit-border-radius: 3px;
 }
 
