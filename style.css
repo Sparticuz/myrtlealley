@@ -148,15 +148,19 @@ p {
 
 a:link {
 	color: #6e6e6e;
+	text-decoration:none;
 }
 a:visited {
 	color: #6e6e6e;
+	text-decoration:none;
 }
 a:active {
 	color:#6e6e6e;
+	text-decoration:none;
 }
 a:hover {
 	color: #7dbf9d;
+	text-decoration:none;
 }
 
 /* =Content
