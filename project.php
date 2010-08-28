@@ -44,13 +44,8 @@ $(document).ready(function(){
 	$('#content ul').wrap('<div id="slider" class="svw" />');
 	$('div#slider').wrap('<div id="slide" />');
 	$('div#slide').next().wrap('<div id="mainContent" />');
-	$('div#mainContent').prepend('<?php echo $the_title?>');
-
-	$paypal = '<br />QTY. <input style="width: 50px;" /> CHECKOUT ->';
-
-	$p = $('.entry-content').find('p')
-	$p.append($paypal);
-	$p.css("float:left");
+	<?php $paypal = $paypal_link; ?>
+        $('div#mainContent').prepend('<?php echo $the_title?>').append('<a href="<?php echo $paypal; ?>">Buy</a>');
 	$('div#slider').slideView();
 
 });

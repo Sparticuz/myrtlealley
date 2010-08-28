@@ -72,7 +72,7 @@ jQuery.fn.slideView = function(settings) {
 		
 		jQuery("div#stripTransmitter" + j).css("width" , pictWidth);
 		jQuery("div#stripTransmitter" + j + " a:first").addClass("current");
-		jQuery('body').append('<div class="tooltip" style="display:none;"><\/div>');
+		//jQuery('body').append('<div class="tooltip" style="display:none;"><\/div>');
 		
 
 		if(settings.toolTip){
