@@ -63,7 +63,7 @@ body{
 	position: absolute;
 	top: 53px;
 	right: 0px;
-	background: url('images/scrap/search.png') no-repeat;
+	background: url('images/search.png') no-repeat;
 	width: 188px;
 	height:42px;
 }
@@ -183,6 +183,7 @@ a:hover {
 	overflow-y: auto;
 	overflow-x: hidden;
 	line-height: 24px;
+	float:left;
 }
 
 #content .alignleft a{
@@ -192,7 +193,7 @@ a:hover {
 	margin-top: 4px;
 }
 #content .alignright a{
-	background-image: url('images/scrap/go.png');
+	background-image: url('images/go.png');
 	display: block;
 	float: right;
 	margin-left: 24px;
@@ -223,7 +224,7 @@ a:hover {
 }
 
 #searchsubmit {
-	background: url('images/scrap/go.png') no-repeat;
+	background: url('images/go.png') no-repeat;
 	width:34px;
 	height:15px;
 	border:0;
@@ -352,4 +353,9 @@ a:hover {
 
 .navigation{
 	float: left; clear:both;width: 712px;
+}
+
+#sidebar{
+	width: 166px;
+	float:left;
 }

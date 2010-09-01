@@ -23,7 +23,7 @@ get_header(); ?>
 					<h1 class="entry-title"><?php the_title(); ?></h1>
 
 					<div class="entry-meta">
-						<?php twentyten_posted_on(); ?>
+						<?php  ?>
 					</div><!-- .entry-meta -->
 
 					<div class="entry-content">
@@ -49,7 +49,7 @@ get_header(); ?>
 <?php endif; ?>
 
 					<div class="entry-utility">
-						<?php twentyten_posted_in(); ?>
+						<?php  ?>
 						<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
 					</div><!-- .entry-utility -->
 				</div><!-- #post-## -->
@@ -64,7 +64,8 @@ get_header(); ?>
 <?php endwhile; // end of the loop. ?>
 
 			</div><!-- #content -->
-		</div><!-- #container -->
+
 
 <?php get_sidebar(); ?>
+</div><!-- #container -->
 <?php get_footer(); ?>
