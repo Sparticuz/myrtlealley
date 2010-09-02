@@ -188,7 +188,7 @@ a:hover {
 
 #content .alignleft a{
 	background-image: url('images/scrap/back.png');
-	background-repeat: none;
+	background-repeat: no-repeat;
 	color:transparent;
 	display: inline;
 	float: left;
@@ -197,7 +197,7 @@ a:hover {
 }
 #content .alignright a{
 	background-image: url('images/go.png');
-	background-repeat: none;
+	background-repeat: no-repeat;
 	display: block;
 	float: right;
 	color:transparent;
