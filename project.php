@@ -29,11 +29,18 @@
 			</div><!-- .entry-content -->
 		</div><!-- #post-## -->
 		<?php $the_title = the_title('<h3>', '</h3>', false);
-		$paypal_link = 'https://www.paypal.com/cgi-bin/webscr?cmd=_xclick';
-		$paypal_link .= '&business=rebecca@myrtlealleypress.com';
-		$paypal_link .= '&item_name='.the_title('','',false);
-		$paypal_link .= '&amount='.get_post_meta (get_the_ID(), "price", true);
-		$paypal_link .= '&currency_code=USD';
+
+		$price = get_post_meta(get_the_ID(), 'price', true);
+		
+		if($price != ''){
+			$paypal_link = 'https://www.paypal.com/cgi-bin/webscr?cmd=_xclick';
+			$paypal_link .= '&business=rebecca@myrtlealleypress.com';
+			$paypal_link .= '&item_name='.urlencode(the_title('','',false));
+			$paypal_link .= '&amount='.$price;
+			$paypal_link .= '&currency_code=USD';
+		}
+		else
+			unset($paypal_link);
 
 		endwhile; ?>
 
@@ -44,8 +51,14 @@ $(document).ready(function(){
 	$('#content ul').wrap('<div id="slider" class="svw" />');
 	$('div#slider').wrap('<div id="slide" />');
 	$('div#slide').next().wrap('<div id="mainContent" />');
-	<?php $paypal = $paypal_link; ?>
-        $('div#mainContent').prepend('<?php echo $the_title?>').append('<a href="<?php echo $paypal; ?>">Buy</a>');
+    $('div#mainContent').prepend('<?php echo $the_title?>')<?php
+			//only show buy link if applicable
+			if(isset($paypal_link)){
+				echo ".append('<a href=";
+				echo $paypal_link;
+				echo ">Buy</a>')";
+			}
+			?>;
 	$('div#slider').slideView();
 
 });
