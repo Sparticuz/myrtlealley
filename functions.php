@@ -155,6 +155,9 @@ if (function_exists('add_theme_support')){
 	add_theme_support('post-thumbnails');
 }
 
+if ( function_exists('register_sidebars') )
+	register_sidebars();
+
 /*change to google hosted jquery*/
 if( !is_admin()){
    wp_deregister_script('jquery');
