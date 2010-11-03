@@ -19,12 +19,13 @@
 	</div><!-- #footer -->
 </div><!-- #wrapper -->
 
+<?php if(is_front_page()){ ?>
 <script type="text/javascript">
 	$(document).ready(function(){
-		//$('#content').jScrollPane();
+		$('#aside').remove();
 	});
 </script>
-
+<?php } ?>
 
 <?php
 	/* Always have wp_footer() just before the closing </body>
