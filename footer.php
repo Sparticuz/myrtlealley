@@ -19,7 +19,7 @@
 	</div><!-- #footer -->
 </div><!-- #wrapper -->
 
-<?php if(is_front_page()){ ?>
+<?php if( is_front_page() || is_page('27') ){ ?>
 <script type="text/javascript">
 	$(document).ready(function(){
 		$('#aside').remove();
