@@ -23,6 +23,7 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		$('#aside').remove();
+		$('#content').width('905px');
 	});
 </script>
 <?php } ?>
